@@ -1,0 +1,117 @@
+#helloIm{
+    margin-top:20%;
+    margin-left: 4%;
+}
+
+#subhead{
+    color:black;
+}
+
+#name{
+    color:black;
+}
+
+
+
+#note{
+    color:black;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#resumeButton{
+    width:20%;
+    height:auto;
+    border-radius: 10%;
+    font-size: larger;
+}
+
+#myImg{
+    margin-top:10%;
+    text-align: center; 
+}
+#sindhuImg{
+    border-radius: 50%;
+    max-width: 100%; /* Prevent the image from overflowing */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#aboutHead{
+    color:black;
+    margin-top: 40%;
+}
+#aboutImg{
+    margin-top:30%;
+}
+
+
+/* Media Queries */
+
+/* For tablets and medium-sized devices (768px or smaller) */
+@media (max-width: 768px) {
+    #helloIm {
+        margin-top: 10%;
+        margin-left: 2%;
+    }
+
+    #name {
+        font-size: 1.5rem;
+    }
+
+    #note {
+        font-size: medium;
+    }
+
+    #resumeButton {
+        width: 30%;
+        font-size: medium;
+    }
+
+    #myImg {
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    #sindhuImg {
+        width: 50%; /* Reduce the image size to fit */
+        max-width: 100%; /* Ensure it doesn't overflow */
+    }
+}
+
+/* For mobile devices (480px or smaller) */
+@media (max-width: 480px) {
+    #helloIm {
+        margin-top: 5%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #name {
+        font-size: 1.2rem;
+    }
+
+    #note {
+        font-size: small;
+    }
+
+    #resumeButton {
+        width: 50%;
+        font-size: small;
+    }
+
+    #myImg {
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    #sindhuImg {
+        width: 90%; /* Make the image smaller */
+        max-width: 100%; /* Ensure it doesn't exceed the container */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+    }
+}

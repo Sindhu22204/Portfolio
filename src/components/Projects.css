@@ -1,0 +1,29 @@
+#projHead{
+    color:black;
+    margin-top:10%;
+    text-align:center;
+}
+
+.project-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 8px 10px #7f7f7f;
+    
+}
+
+.project-box:hover{
+    background-color: #6d6b6b; /* Darker grey */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.project-box h3 {
+    margin-top: 0;
+}
+
+.project-box p {
+    margin: 0;
+}

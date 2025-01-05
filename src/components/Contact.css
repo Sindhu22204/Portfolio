@@ -1,0 +1,28 @@
+
+#contact{
+  background-color: #333;
+}
+
+#contactHead{
+  color:azure;
+  text-align: center;
+  margin-top: 6%;
+  padding-top:2%;
+  margin-bottom: 0;
+}
+.icon-container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 20px;
+  }
+  .icon-container a {
+    text-decoration: none;
+    color: white;
+    font-size: 3rem; 
+    transition: color 0.3s;
+    margin-bottom: 10%;
+  }
+  .icon-container a:hover {
+    color: #0073b1; 
+  }

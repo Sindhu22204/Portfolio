@@ -1,0 +1,90 @@
+#certifyHead{
+    color:black;
+    text-align: center;
+}
+.certification-table{
+    color:beige;
+    border-collapse: collapse;
+    border: 2px solid white;
+    padding:2%;
+    margin-left:20%;
+    margin-top: 2%;
+    text-align: center;
+    align-items: center;
+}
+.eachRow{
+    border:2px solid white;
+    
+}
+.cell, .cell1 {
+    border: 2px solid white;
+    padding: 2%;
+    text-align: left;
+    word-wrap: break-word;
+    font-weight: bolder;
+  }
+  
+  .cell1 {
+    background-color: rgb(79, 77, 77);
+  }
+td a{
+    color:black;
+}
+  tr:hover {background-color: rgb(118, 121, 118);}
+
+
+  /* For tablets and medium-sized devices (768px or smaller) */
+@media (max-width: 768px) {
+    #certifyHead {
+        font-size: 1.8rem; /* Adjust font size for tablet screens */
+        margin-top: 2%; /* Add some space above the title */
+    }
+
+    .certification-table {
+        margin-left: 10%; /* Reduce left margin for smaller screens */
+        margin-right: 10%; /* Add right margin for balance */
+        width: 80%; /* Make the table width more flexible */
+        font-size: 1.2rem; /* Adjust font size */
+    }
+
+    .cell, .cell1 {
+        padding: 1% 2%; /* Adjust padding for better spacing */
+        font-size: 1rem; /* Slightly reduce font size */
+    }
+
+    .eachRow {
+        font-size: 1rem; /* Ensure row text is readable */
+    }
+}
+
+/* For mobile devices (480px or smaller) */
+@media (max-width: 480px) {
+    #certifyHead {
+        font-size: 1.5rem; /* Reduce font size on mobile */
+        margin-top: 5%; /* Adjust the top margin */
+    }
+
+    .certification-table {
+        margin-left: 5%; /* Reduce left margin */
+        margin-right: 5%; /* Reduce right margin */
+        width: 90%; /* Ensure the table uses almost the full width */
+        font-size: 1rem; /* Adjust font size for readability */
+    }
+
+    .cell, .cell1 {
+        padding: 1% 1.5%; /* Adjust padding for smaller screens */
+        font-size: 0.9rem; /* Further reduce font size for better fit */
+    }
+
+    .cell1 {
+        background-color: rgb(79, 77, 77); /* Keep the background color */
+    }
+
+    .eachRow {
+        font-size: 0.9rem; /* Adjust row text size for small screens */
+    }
+
+    tr:hover {
+        background-color: rgb(118, 121, 118); /* Hover effect remains */
+    }
+}

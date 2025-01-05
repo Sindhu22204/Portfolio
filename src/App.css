@@ -1,0 +1,22 @@
+#body{
+  background: linear-gradient(to right, #2980b9, #bdc3c7);
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* For Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+  #body {
+    padding: 10px; /* Add some padding for smaller screens */
+  }
+}
+
+/* For Mobiles (max-width: 480px) */
+@media (max-width: 480px) {
+  #body {
+    padding: 5px; /* Reduce padding for very small screens */
+  }
+}

@@ -1,0 +1,61 @@
+#navgate{
+    margin-top:2%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+}
+
+.aa{
+    color:black;
+    font-size: larger;
+    word-spacing: 30px;
+    font-weight: bolder;
+    padding:5%;
+    margin-top:10%;
+    text-align: center;
+    position: relative;
+    padding-bottom: 5px;
+   text-decoration: none;
+}
+
+.aa::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px; /* Adjust the thickness of the line */
+    background-color: black; /* Adjust the color of the line */
+    transition: width 0.3s; /* Smooth transition */
+}
+
+.aa:hover::after {
+    width: 80%;
+}
+
+/* For tablets and medium-sized devices (768px or smaller) */
+@media (max-width: 768px) {
+    #navgate {
+        margin-top: 3%; /* Add slightly more space for tablets */
+        flex-direction: column; /* Stack navigation links vertically */
+    }
+    .aa {
+        font-size: medium; /* Adjust font size for smaller screens */
+        padding: 3%; /* Reduce padding */
+        word-spacing: 15px; /* Decrease word spacing */
+    }
+}
+
+/* For mobile devices (480px or smaller) */
+@media (max-width: 480px) {
+    #navgate {
+        margin-top: 4%; /* Slightly increase spacing on small screens */
+        flex-direction: column; /* Stack links vertically */
+        text-align: center; /* Center-align links */
+    }
+    .aa {
+        font-size: small; /* Further reduce font size */
+        padding: 2%; /* Compact padding */
+        word-spacing: 10px; /* Decrease word spacing */
+    }
+}
